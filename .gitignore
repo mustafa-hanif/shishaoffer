@@ -1,0 +1,8 @@
+node_modules
+.blitz
+.husky
+.env.local
+.env.test.local
+.tsbuildinfo
+.blitz.config.compiled.js
+db
