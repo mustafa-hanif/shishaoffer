@@ -61,7 +61,8 @@ const ProjectsPage: BlitzPage = () => {
   )
 }
 
-ProjectsPage.authenticate = true
+ProjectsPage.authenticate = false
+ProjectsPage.suppressFirstRenderFlicker = true
 ProjectsPage.getLayout = (page) => <Layout>{page}</Layout>
 
 export default ProjectsPage
